@@ -12,13 +12,24 @@ code {
     monospace;
 }
 
+h1 {
+  margin-left: 50px;
+}
+
 .block {
   height: 150px;
   width: 400px;
-  border: 1px solid #000;
   border-radius: 5px;
 }
 
-.father {
+.first {
   margin-left: 50px;
+}
+
+.second {
+  display: flex;
+}
+
+.third {
+  display: flex;
 }
